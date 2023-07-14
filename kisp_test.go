@@ -3,9 +3,10 @@
 package goraph
 
 import (
+	"math"
+
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"math"
 )
 
 var _ = Describe("Tests of Kisp", func() {
